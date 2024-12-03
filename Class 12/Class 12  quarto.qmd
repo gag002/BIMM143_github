@@ -1,0 +1,125 @@
+---
+title: "Class 12"
+author: "Gonzalez A16745338"
+format: pdf
+---
+
+# Section 1. Proportion og G/G in a population
+
+
+Downloaded a CSV file from Ensemble
+
+Here we read this CSV file
+
+```{r}
+mxl <- read.csv("373531-SampleGenotypes-Homo_sapiens_Variation_Sample_rs8067378.csv")
+
+head(mxl)
+```
+
+```{r}
+table(mxl$Genotype..forward.strand.)
+
+
+```
+
+
+```{r}
+table(mxl$Genotype..forward.strand.) / nrow(mxl) * 100
+```
+
+Now lets look at a different population. I picked the GBR.
+
+```{r}
+gbr <- read.csv("373522-SampleGenotypes-Homo_sapiens_Variation_Sample_rs8067378.csv")
+
+head(gbr)
+```
+
+Find proportion of G G 
+
+```{r}
+round(table(gbr$Genotype..forward.strand.) / nrow(gbr) *100,2)
+```
+
+this varient that is associated with childhood asthma is more frequent in the GBR population the the MKL population.
+
+Now letsdig further...
+
+
+
+> Q13: Read this file into R and determine the sample size for each genotype and
+their corresponding median expression levels for each of these genotypes. 
+Hint: The read.table(),summary() and boxplot() functions will likely be useful
+here. There is an example R script online to be used ONLY if you are struggling 
+in vein. Note that you can find the medium value from saving the output of the 
+boxplot() function to an R object and examining this object.There is also the 
+medium() and summary() function that you can use to check your understanding.
+
+
+```{r}
+data <- read.table("rs8067378_ENSG00000172057.6.txt", header = TRUE)
+
+summary(data)
+
+library(dplyr)
+
+summary_data <- data %>%
+  group_by(geno) %>%
+  summarise(
+    Sample_Size = n(),
+    Median_Expression = median(exp, na.rm = TRUE)
+  )
+
+print(summary_data)
+
+
+```
+
+
+
+
+> Q14: Generate a boxplot with a box per genotype, what could you infer from the
+relative expression value between A/A and G/G displayed in this plot? Does the 
+SNP effect the expression of ORMDL3? Hint: An example boxplot is provided 
+overleaf – yours does not need to be as polished as this one. 
+
+
+```{r}
+data <- read.table("rs8067378_ENSG00000172057.6.txt", header = TRUE, sep = " ", na.strings = c("", "NA"))
+str(data)
+head(data)
+summary(data)
+```
+
+
+```{r}
+colnames(data) <- c("sample", "geno", "exp")
+```
+
+
+```{r}
+# Filter out rows with NA 
+data_clean <- data[!is.na(data$exp) & is.finite(data$exp), ]
+```
+
+
+```{r}
+# boxplot 
+boxplot(exp ~ geno, data = data_clean,
+        main = "Expression Levels by Genotype",
+        xlab = "Genotype", ylab = "Expression Levels",
+        col = c("blue", "orange", "purple"))
+
+```
+
+
+
+
+
+
+
+
+
+
+

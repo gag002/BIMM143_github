@@ -1,0 +1,38 @@
+CLUSTAL multiple sequence alignment by MUSCLE (3.8)
+
+
+RET4                 MAWVWALVLLAALGSAQAERDCRVSSFRVKENFDKAR-----------------------
+Callithrix           ------------------------------------------------------------
+DNA-binding          MKWVWALLLLAVLGSSRAERDCRVSSFRVKENFDKARPGSAQETWTARVPTPIPALPAAR
+Homo                 ------------------------------------------------------------
+RBP4                 --MNYSKIPAQVDLRRQTERDCRVSSFRVKENFDKAR-----------------------
+Hypothetical         -----------------------------------SQ-----------------------
+Retinol-binding      ---METQLILLTRASCQSHWPRRPPQTAAGGRWHECR-----------VPTPIPALPAAR
+                                                                                 
+
+RET4                 ----------------FSGTWYAMAKKDPEGLFLQDNIVAEFSVDENGQMSATAKGRVRL
+Callithrix           ----------------FSGTWYAMAKKDPEGLFLQDNIIAEFSVDETGQMSATAKGRVRL
+DNA-binding          HEPPDTKP-LLSSFSQFSGTWYAMAKKDPEGLFLQDNIIAEFSVDETGQMSATAKGRVRL
+Homo                 ----------------FSGTWYAMAKKDPEGLFLQDNNVAEFSVDETGQMSATAKGRVRL
+RBP4                 ----------------FSGTWYAMAKKDPEGLFLQDNIVAEFSVDETGQMSATAKGRVRL
+Hypothetical         ----------------FSGTWYAMAKKDPEGLFLQDNIVAEFSVDETGQMSATAKGRVRL
+Retinol-binding      CAPPDTKPLLLSSFSQFSGTWYAMAKKDPEGLFLQDNIVAEFSVDETGQMSATAKGRVRL
+                                     ********************* :*******.*************
+
+RET4                 LNNWDVCADMVGTFTDTEDSAKFKMKYWGVASFLQKGNDDHWIIDTDYDTYAVQYSCRLL
+Callithrix           LK----------------------------------------------------------
+DNA-binding          LNNWDVCADMVGTFTDTEDPAKFKMKYWGVASFLQKGSE---------------------
+Homo                 LK----------------------------------------------------------
+RBP4                 LNNWDVCADMVGTFTDTEDPAKFKMKYWGVASFLQKGNDDHWIVDTDYDTYAVQYSCRLL
+Hypothetical         LNNWDVCADMVGTFTDTEDPAKFKMKYWGVASFLQKGNDDHWIIDTDYDTYAVQYSCRLL
+Retinol-binding      LNNWDVCADMVGTFTDTEDPAKFKMKYWGVASFLQKGNDDHWIIDTDYDTYAVQYSCRLL
+                     *:                                                          
+
+RET4                 NLDGTCADSYSFVFARDPKGLPPDVQKIVRQRQDELCLARQYRLIVHNG-----------
+Callithrix           ------------------------------------------------------------
+DNA-binding          ------------------------------------------------------------
+Homo                 ------------------------------------------------------------
+RBP4                 NLDGTCADSYSFVFSRDPNGLPPEAQKIVRQRQEELCLARQYRLIVHNGYCDGRSERNLL
+Hypothetical         NLDGTCADSYSFVFSRDPNGLPPEAQRIVRQRQEELCLARQYRLIVHNGYCDGRSERNLL
+Retinol-binding      NLDGTCADSYSFVFSRDPNGLPPEAQKIVRQRQEELCLARQYRLIVHNGYCDGRSERNLL
+                                                                                 

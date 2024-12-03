@@ -1,0 +1,48 @@
+My notes for class 17
+
+pwd: tells you where you are in the file system
+ssh: open a secure shell on another computer(login)
+# ssh [-i keyfile] username@comptername
+gunzip: un zip
+tar -xvf: to untar files
+cd: change directory
+
+scp: secure copy from or to a remote machine
+# scp -i keyfile username@remotecomputer:FILE2COPY NEWlocalFILE
+
+keyfile: bimm143_gag002
+
+ssh -i "~/Downloads/bimm143_gag002.pem" ubuntu@ec2-35-93-45-247.us-west-2.compute.amazonaws.com
+
+scp -r -i "~/Downloads/bimm143_gag002.pem" ubuntu@ec2-35-93-45-247.us-west-2.compute.amazonaws.com:~/*_quant .
+
+
+
+
+
+The PATH is a special environment variable that stores the location of programs 
+of exe file in UNIX systems. I can print it with 'echo $PATH'
+
+We can add to it with:
+export PATH=$PATH:/my/new/pathpastedhere.com
+
+
+The SRA-TOOLKIT allows us to query and download raw sequencing data from NCBI's
+SRA database. Key command includes:
+prefetch [SRACODE]
+fastq-dumpe [SRACODE]
+
+
+fastq-dump $prefetch SRR2156848
+fastq-dump --split-3 SRR2156848
+ls 
+grep -c "@SRR2156848" *.fastq
+
+
+ls
+grep -c "@SRR2156" *.fastq
+
+
+
+
+

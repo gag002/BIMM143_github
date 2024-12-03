@@ -1,0 +1,228 @@
+---
+title: "class 14"
+author: "Gonzalez A16745338"
+format: html
+---
+
+Today we will complete an RNASeq analysis from counts to pathways.
+
+We will work with data on differential analysis of lung fibroblasts in response to loss of developmental transciption factor HOXA1.
+
+
+## Data Import
+```{r}
+library(DESeq2)
+```
+
+
+
+```{r}
+metaFile <- "GSE37704_metadata.csv"
+countFile <- "GSE37704_featurecounts.csv"
+
+# Import metadata and take a peak
+metadata = read.csv(metaFile, row.names=1)
+metadata$id <- row.names(metadata)
+head(metadata)
+
+```
+```{r}
+# Import countdata
+countData = read.csv(countFile, row.names=1)
+head(countData)
+```
+
+Check correspondence of the columns of 'counts' and rows of 'metadata'
+
+```{r}
+colnames(countData)
+```
+
+```{r}
+metadata$id
+```
+
+We need to remove the first length column from our counts 
+
+```{r}
+counts <- countData[,-1]
+colnames(counts) == metadata$id
+```
+
+> Q. How many genes do we have? 
+
+```{r}
+nrow(counts)
+```
+
+There are tones of zero count genes that we can get rid of.
+
+```{r}
+to.rm <- rowSums(counts) == 0
+#counts[!to.rm,]
+```
+```{r}
+to.keep <- rowSums(counts) == !0
+countData[to.keep,]
+```
+
+
+> Q. How many genes do we have left?
+
+```{r}
+nrow(counts)
+```
+
+
+## DESeq setup
+```{r}
+library(DESeq2)
+```
+
+
+## DESeq Analysis
+
+
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = counts,
+                              colData = metadata, 
+                              design = ~condition)
+dds
+```
+
+```{r}
+dds <- DESeq(dds)
+res <- results(dds)
+```
+
+
+
+```{r}
+head(res)
+```
+
+
+## Result Visualization
+
+```{r}
+plot( res$log2FoldChange, -log(res$padj) )
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+## Add Annotataion
+
+```{r}
+library(AnnotationDbi)
+library(org.Hs.eg.db)
+
+columns(org.Hs.eg.db)
+```
+
+
+```{r}
+res$symbol <- mapIds(org.Hs.eg.db,
+              keys=rownames(res),
+              keytype="ENSEMBL",
+              column="SYMBOL")
+```
+
+```{r}
+res$entrez = mapIds(org.Hs.eg.db,
+                    keys=rownames(res),
+                    keytype="ENSEMBL",
+                    column="ENTREZID",
+                    multiVals="first")
+
+```
+
+
+
+```{r}
+head(res, 10)
+```
+
+
+
+## Pathway Analysis
+
+```{r}
+library(gage)
+library(gageData)
+library(pathview)
+```
+
+```{r}
+data(kegg.sets.hs)
+data(sigmet.idx.hs)
+
+```
+
+
+```{r}
+foldchanges = res$log2FoldChange
+names(foldchanges) = res$entrez
+head(foldchanges)
+```
+
+
+```{r}
+# Get the results
+keggres = gage(foldchanges, gsets=kegg.sets.hs)
+```
+
+```{r}
+head(keggres$less, 3)
+```
+
+
+```{r}
+head(keggres$greater, 3)
+```
+
+
+```{r}
+nrow(countData)
+nrow(res)
+```
+
+```{r}
+
+```
+
+
+```{r}
+sig_genes <- res[res$padj <= 0.05 & !is.na(res$padj), "symbol"]
+print(paste("Total number of significant genes:", length(sig_genes)))
+```
+
+```{r}
+write.table(sig_genes, file="significant_genes.txt", row.names=FALSE, col.names=FALSE, quote=FALSE)
+```
+
+
+![](R-HSA-)
+
+
+## Save Results
+
+```{r}
+write.csv(res, file="myresults.csv")
+```
+
+
+
+
+
+
+

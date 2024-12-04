@@ -1,40 +1,10 @@
 ---
 title: "Class 17"
 author: "Gonzalez A16745338"
-format: html
+format: pdf
 ---
-
-```{r}
-library(bio3d)
-```
-
-```{r}
-alignment <- read.fasta("clustalo-I20241126-232353-0280-22449952-p1m.fa")
-```
-
-```{r}
-# Calculate sequence identity matrix
-seq_identity_matrix <- seqidentity(alignment)
-
-```
-
-```{r}
-# Generate heatmap
-heatmap(seq_identity_matrix, 
-        xlab = "Sequences", 
-        ylab = "Sequences", 
-        col = heat.colors(256), 
-        margins = c(10, 10))  # Adjust margins to ensure labels are visible
-
-```
-
-```{r}
-library(bio3d)
-pdb_hits <- blast.pdb("muscle-I20241203-053530-0192-33512747-p1m.aln-clustalw") # Replace "query.fasta" with your sequence file
-print(pdb_hits)  # View the results
-
-```
-
-
+ 
+ 
+ notes.txt has notes from lecture
 
 

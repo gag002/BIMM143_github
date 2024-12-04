@@ -1,7 +1,7 @@
 ---
 title: "Class 16"
 author: "Gonzalez A16745338"
-format: html
+format: pdf
 ---
 
 This is a simple text editor called unix
@@ -37,7 +37,7 @@ c("qseqid", "sseqid", "pident", "length", "mismatch", "gapopen", "qstart", "qend
 
 ```{r}
 ## Asuming your blast results are stored in an object called 'b'
-plot(b$pident  * (b$qend - b$qstart), b$bitscore)
+# plot(b$pident  * (b$qend - b$qstart), b$bitscore)
 ```
 
 
@@ -45,12 +45,12 @@ plot(b$pident  * (b$qend - b$qstart), b$bitscore)
 
 ```{r}
 library(ggplot2)
-ggplot(b, aes(pident, bitscore)) + geom_point(alpha=0.1) 
+# ggplot(b, aes(pident, bitscore)) + geom_point(alpha=0.1) 
 ```
 
 
 ```{r}
-ggplot(b, aes((b$pident * (b$qend - b$qstart)), bitscore)) + geom_point(alpha=0.1) + geom_smooth()
+# ggplot(b, aes((b$pident * (b$qend - b$qstart)), bitscore)) + geom_point(alpha=0.1) + geom_smooth()
 ```
 
 

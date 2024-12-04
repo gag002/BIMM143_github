@@ -1,6 +1,6 @@
 ---
 title: "Class 13"
-author: "Karleen Guerrero A16791042"
+author: "Gonzalez A16791042"
 format: pdf
 ---
 

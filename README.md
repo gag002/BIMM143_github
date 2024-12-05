@@ -25,7 +25,7 @@ Class 11 [Structural Bioinformatics pt2]
 
 Class 12 [Genome informatics and high throughput sequencing](https://github.com/gag002/BIMM143_github/blob/main/Class%2012/Class-12--quarto.pdf)
 
-Class 13 (Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists](https://github.com/gag002/BIMM143_github/blob/main/Class%2013%20/Class%2013%20-%20Class-13.pdf)
+Class 13 [Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists](https://github.com/gag002/BIMM143_github/blob/main/Class%2013%20/Class%2013%20-%20Class-13.pdf)
 
 Class 14 [RNA-Seq mini project]
 

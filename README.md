@@ -29,7 +29,7 @@ Class 14 [**RNA-Seq mini project**](https://github.com/gag002/BIMM143_github/blo
 
 Class 15 [**Investigating pertussis resurgence mini project**](https://github.com/gag002/BIMM143_github/blob/main/Class%2015/Class%2015.md)
 
-Class 16 [Essential UNIX for bioinformatics**](https://github.com/gag002/BIMM143_github/blob/main/Class%2016/Class%2016.md)
+Class 16 [**Essential UNIX for bioinformatics**](https://github.com/gag002/BIMM143_github/blob/main/Class%2016/Class%2016.md)
 
 Class 17 [**Analyzing sequencing data in the cloud**](https://github.com/gag002/BIMM143_github/blob/main/Class%2017/notes.txt)
 

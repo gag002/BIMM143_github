@@ -31,4 +31,4 @@ Class 15 [Investigating pertussis resurgence mini project](https://github.com/ga
 
 Class 16 [Essential UNIX for bioinformatics](https://github.com/gag002/BIMM143_github/blob/main/Class%2016/Class%2016%20-%20Class-16.pdf)
 
-Project [Find a gene]
+Project [Find a gene](https://github.com/gag002/BIMM143_github/blob/main/Find%20a%20Gene%20Project.pdf)

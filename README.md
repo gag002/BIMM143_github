@@ -5,7 +5,7 @@ Class 1 [Welcome to Bioinformatics](https://github.com/gag002/BIMM143_github/blo
 
 Class 2 [Sequence alignment fundamentals, algorithms, and applications](https://github.com/gag002/BIMM143_github/blob/main/Class%202.pdf)
 
-Class 3 [Find a gene project](https://github.com/gag002/BIMM143_github/blob/main/Class%203.pdf)
+Class 3 [Advanced Database Searching](https://github.com/gag002/BIMM143_github/blob/main/Class%203.pdf)
 
 Class 4 [Bioinformatics data analysis with R](https://github.com/gag002/BIMM143_github/blob/main/Class%204.pdf)
 
@@ -21,18 +21,13 @@ Class 9 [Halloween Candy Mini-Project](https://github.com/gag002/BIMM143_github/
 
 Class 10 [Structural Bioinformatics pt1](https://github.com/gag002/BIMM143_github/blob/main/Class%2010%20/Class%2010%20Structural%20BioInformatics%201%20-%20Class-9-Structural-Bio-1.pdf)
 
-Class 11 [Structural Bioinformatics pt2]
-
 Class 12 [Genome informatics and high throughput sequencing](https://github.com/gag002/BIMM143_github/blob/main/Class%2012/Class-12--quarto.pdf)
 
 Class 13 [Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists](https://github.com/gag002/BIMM143_github/blob/main/Class%2013%20/Class%2013%20-%20Class-13.pdf)
 
-Class 14 [RNA-Seq mini project]
+Class 14 [RNA-Seq mini project](https://github.com/gag002/BIMM143_github/blob/main/class%2014/Gonzalez%20Class%2014.pdf)
 
 Class 15 [Investigating pertussis resurgence mini project](https://github.com/gag002/BIMM143_github/blob/main/Class%2015/Class-15.pdf)
 
 Class 16 [Essential UNIX for bioinformatics](https://github.com/gag002/BIMM143_github/blob/main/Class%2016/Class%2016%20-%20Class-16.pdf)
 
-Class 17 [Analyzing sequencing data in the cloud]
-
-Class 19 [Hands-on with Git and Github]

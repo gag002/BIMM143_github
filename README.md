@@ -7,7 +7,7 @@ Class 2 [Sequence alignment fundamentals, algorithms, and applications](https://
 
 Class 3 [Find a gene project](https://github.com/gag002/BIMM143_github/blob/main/Class%203.pdf)
 
-Class 4 [Bioinformatics data analysis with R]
+Class 4 [Bioinformatics data analysis with R](https://github.com/gag002/BIMM143_github/blob/main/Class%204.pdf)
 
 Class 5 [Data exploration and visualization in R](https://github.com/gag002/BIMM143_github/blob/main/Class%205/Week-5-bimm-143.pdf)
 

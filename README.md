@@ -1,11 +1,11 @@
 # BIMM143_github
 Classwork for [BIMM143 F24](https://bioboot.github.io/bimm143_F24/) at UC San Diego.
 
-Class 1 [Welcome to Bioinformatics]
+Class 1 [Welcome to Bioinformatics](https://github.com/gag002/BIMM143_github/blob/main/Class%201.pdf)
 
-Class 2 [Sequence alignment fundamentals, algorithms, and applications]
+Class 2 [Sequence alignment fundamentals, algorithms, and applications](https://github.com/gag002/BIMM143_github/blob/main/Class%202.pdf)
 
-Class 3 [Find a gene project]
+Class 3 [Find a gene project](https://github.com/gag002/BIMM143_github/blob/main/Class%203.pdf)
 
 Class 4 [Bioinformatics data analysis with R]
 

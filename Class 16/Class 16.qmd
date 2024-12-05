@@ -1,7 +1,7 @@
 ---
 title: "Class 16"
 author: "Gonzalez A16745338"
-format: pdf
+format: gfm
 ---
 
 This is a simple text editor called unix

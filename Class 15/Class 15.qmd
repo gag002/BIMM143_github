@@ -1,7 +1,7 @@
 ---
 title: "Class 15: Mini Project Investigating Pertussis Resurgence"
 author: "Gonzalez A16745338"
-format: pdf
+format: gfm
 ---
 
 ## Background

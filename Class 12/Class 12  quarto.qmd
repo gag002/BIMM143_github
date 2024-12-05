@@ -1,7 +1,8 @@
 ---
 title: "Class 12"
 author: "Gonzalez A16745338"
-format: pdf
+format: gfm
+
 ---
 
 # Section 1. Proportion og G/G in a population

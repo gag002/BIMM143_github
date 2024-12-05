@@ -1,7 +1,7 @@
 ---
 title: "class 14"
 author: "Gonzalez A16745338"
-format: pdf
+format: gfm
 ---
 
 Today we will complete an RNASeq analysis from counts to pathways.

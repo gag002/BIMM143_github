@@ -1,7 +1,7 @@
 ---
 title: "Class 13"
 author: "Gonzalez A16791042"
-format: pdf
+format: gfm
 ---
 
 This week we are looking at differential expression analysis. 

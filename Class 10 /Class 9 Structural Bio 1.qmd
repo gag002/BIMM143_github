@@ -1,6 +1,6 @@
 ---
 title: "Class 10 Structural BioInformatics 1"
-format: pdf
+format: gfm
 author: Gonzalez A16745338
 ---
 

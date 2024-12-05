@@ -11,7 +11,7 @@ Class 4 [**Bioinformatics data analysis with R**](https://github.com/gag002/BIMM
 
 Class 5 [**Data exploration and visualization in R**](https://github.com/gag002/BIMM143_github/blob/main/Class%205/Week%205%20bimm%20143.md)
 
-Class 6 [Why, when and how of writing our own R functions]()
+Class 6 [**Why, when and how of writing our own R functions**](https://github.com/gag002/BIMM143_github/blob/main/Class%206/HW%20Class%206%20(R%20Functions).pdf)
 
 Class 7 [**Introduction to machine learning for Bioinformatics 1**](https://github.com/gag002/BIMM143_github/blob/main/Class%207/Class%207_%20Machine%20Learning%20-%20Class-7-Lab.pdf)
 

@@ -15,7 +15,7 @@ Class 6 [Why, when and how of writing our own R functions](https://github.com/ga
 
 Class 7 [Introduction to machine learning for Bioinformatics 1](https://github.com/gag002/BIMM143_github/blob/main/Class%207/Class%207_%20Machine%20Learning%20-%20Class-7-Lab.pdf)
 
-Class 8 [Unsupervised learning mini-project]
+Class 8 [Unsupervised learning mini-project](https://github.com/gag002/BIMM143_github/blob/main/Class%208/Class-8-Mini-Project.pdf)
 
 Class 9 [Halloween Candy Mini-Project](https://github.com/gag002/BIMM143_github/blob/main/Class%209/Class%209_%20Halloween%20Mini-Project.pdf)
 
@@ -25,13 +25,13 @@ Class 11 [Structural Bioinformatics pt2]
 
 Class 12 [Genome informatics and high throughput sequencing](https://github.com/gag002/BIMM143_github/blob/main/Class%2012/Class-12--quarto.pdf)
 
-Class 13 (Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists]
+Class 13 (Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists](https://github.com/gag002/BIMM143_github/blob/main/Class%2013%20/Class%2013%20-%20Class-13.pdf)
 
 Class 14 [RNA-Seq mini project]
 
-Class 15 [Investigating pertussis resurgence mini project]
+Class 15 [Investigating pertussis resurgence mini project](https://github.com/gag002/BIMM143_github/blob/main/Class%2015/Class-15.pdf)
 
-Class 16 [Essential UNIX for bioinformatics]
+Class 16 [Essential UNIX for bioinformatics](https://github.com/gag002/BIMM143_github/blob/main/Class%2016/Class%2016%20-%20Class-16.pdf)
 
 Class 17 [Analyzing sequencing data in the cloud]
 

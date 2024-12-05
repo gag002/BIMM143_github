@@ -1,17 +1,17 @@
 # BIMM143_github
 Classwork for [BIMM143 F24](https://bioboot.github.io/bimm143_F24/) at UC San Diego.
 
-Class 1 [Welcome to Bioinformatics](https://github.com/gag002/BIMM143_github/blob/main/Class%201.pdf)
+Class 1 [**Welcome to Bioinformatics**](https://github.com/gag002/BIMM143_github/blob/main/Class%201.pdf)
 
-Class 2 [Sequence alignment fundamentals, algorithms, and applications](https://github.com/gag002/BIMM143_github/blob/main/Class%202.pdf)
+Class 2 [**Sequence alignment fundamentals, algorithms, and applications**](https://github.com/gag002/BIMM143_github/blob/main/Class%202.pdf)
 
-Class 3 [Advanced Database Searching](https://github.com/gag002/BIMM143_github/blob/main/Class%203.pdf)
+Class 3 [**Advanced Database Searching**](https://github.com/gag002/BIMM143_github/blob/main/Class%203.pdf)
 
-Class 4 [Bioinformatics data analysis with R](https://github.com/gag002/BIMM143_github/blob/main/Class%204.pdf)
+Class 4 [**Bioinformatics data analysis with R**](https://github.com/gag002/BIMM143_github/blob/main/Class%204.pdf)
 
-Class 5 [Data exploration and visualization in R](https://github.com/gag002/BIMM143_github/blob/main/Class%205/Week-5-bimm-143.pdf)
+Class 5 [**Data exploration and visualization in R**](https://github.com/gag002/BIMM143_github/blob/main/Class%205/Week%205%20bimm%20143.md)
 
-Class 6 [Why, when and how of writing our own R functions](https://github.com/gag002/BIMM143_github/blob/main/Class%206.pdf)
+Class 6 [**Why, when and how of writing our own R functions**](https://github.com/gag002/BIMM143_github/blob/main/Class%206.pdf)
 
 Class 7 [Introduction to machine learning for Bioinformatics 1](https://github.com/gag002/BIMM143_github/blob/main/Class%207/Class%207_%20Machine%20Learning%20-%20Class-7-Lab.pdf)
 
